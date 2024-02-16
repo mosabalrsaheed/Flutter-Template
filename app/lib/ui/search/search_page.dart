@@ -29,7 +29,7 @@ class _SearchPageState extends BasePageState<SearchPage, SearchBloc> {
             navigator.push(const AppRouteInfo.login());
           },
           child: Text(
-            S.current.login,
+            localisation.login,
             style: AppTextStyles.s14w400Primary(),
           ),
         ),

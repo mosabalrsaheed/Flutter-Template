@@ -7,31 +7,41 @@ class ExceptionMessageMapper {
   String map(AppException appException) {
     return switch (appException.appExceptionType) {
       AppExceptionType.remote => switch ((appException as RemoteException).kind) {
-          RemoteExceptionKind.badCertificate => S.current.unknownException('UE-01'),
-          RemoteExceptionKind.noInternet => S.current.noInternetException,
-          RemoteExceptionKind.network => S.current.canNotConnectToHost,
+          RemoteExceptionKind.badCertificate =>
+            localisation.unknownException('UE-01'),
+          RemoteExceptionKind.noInternet => localisation.noInternetException,
+          RemoteExceptionKind.network => localisation.canNotConnectToHost,
           RemoteExceptionKind.serverDefined =>
-            appException.generalServerMessage ?? S.current.unknownException('UE-02'),
+            appException.generalServerMessage ??
+                localisation.unknownException('UE-02'),
           RemoteExceptionKind.serverUndefined =>
-            appException.generalServerMessage ?? S.current.unknownException('UE-03'),
-          RemoteExceptionKind.timeout => S.current.timeoutException,
-          RemoteExceptionKind.cancellation => S.current.unknownException('UE-04'),
-          RemoteExceptionKind.unknown => S.current.unknownException('UE-05'),
-          RemoteExceptionKind.refreshTokenFailed => S.current.tokenExpired,
-          RemoteExceptionKind.decodeError => S.current.unknownException('UE-06'),
+            appException.generalServerMessage ??
+                localisation.unknownException('UE-03'),
+          RemoteExceptionKind.timeout => localisation.timeoutException,
+          RemoteExceptionKind.cancellation =>
+            localisation.unknownException('UE-04'),
+          RemoteExceptionKind.unknown => localisation.unknownException('UE-05'),
+          RemoteExceptionKind.refreshTokenFailed => localisation.tokenExpired,
+          RemoteExceptionKind.decodeError =>
+            localisation.unknownException('UE-06'),
         },
-      AppExceptionType.parse => S.current.unknownException('UE-10'),
-      AppExceptionType.uncaught => S.current.unknownException('UE-00'),
+      AppExceptionType.parse => localisation.unknownException('UE-10'),
+      AppExceptionType.uncaught => localisation.unknownException('UE-00'),
       AppExceptionType.validation => switch ((appException as ValidationException).kind) {
-          ValidationExceptionKind.emptyEmail => S.current.emptyEmail,
-          ValidationExceptionKind.invalidEmail => S.current.invalidEmail,
-          ValidationExceptionKind.invalidPassword => S.current.invalidPassword,
-          ValidationExceptionKind.invalidUserName => S.current.invalidUserName,
-          ValidationExceptionKind.invalidPhoneNumber => S.current.invalidPhoneNumber,
-          ValidationExceptionKind.invalidDateTime => S.current.invalidDateTime,
-          ValidationExceptionKind.passwordsAreNotMatch => S.current.passwordsAreNotMatch,
+          ValidationExceptionKind.emptyEmail => localisation.emptyEmail,
+          ValidationExceptionKind.invalidEmail => localisation.invalidEmail,
+          ValidationExceptionKind.invalidPassword =>
+            localisation.invalidPassword,
+          ValidationExceptionKind.invalidUserName =>
+            localisation.invalidUserName,
+          ValidationExceptionKind.invalidPhoneNumber =>
+            localisation.invalidPhoneNumber,
+          ValidationExceptionKind.invalidDateTime =>
+            localisation.invalidDateTime,
+          ValidationExceptionKind.passwordsAreNotMatch =>
+            localisation.passwordsAreNotMatch,
         },
-      AppExceptionType.remoteConfig => S.current.unknownException('UE-100'),
+      AppExceptionType.remoteConfig => localisation.unknownException('UE-100'),
     };
   }
 }

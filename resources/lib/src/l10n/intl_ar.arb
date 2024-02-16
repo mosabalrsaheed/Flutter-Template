@@ -1,0 +1,328 @@
+{
+  "login": "تسجيل الدخول",
+  "fakeLogin": "تسجيل الدخول المزيف",
+  "logout": "تسجيل الخروج",
+  "password": "كلمة المرور",
+  "unknownException": "استثناء غير معروف ({errorCode})",
+  "parseException": "استثناء التحليل",
+  "cancellationException": "استثناء الإلغاء",
+  "noInternetException": "استثناء عدم وجود اتصال بالإنترنت",
+  "timeoutException": "استثناء المهلة",
+  "badCertificateException": "استثناء شهادة غير صالحة",
+  "canNotConnectToHost": "لا يمكن الاتصال بالمضيف",
+  "tokenExpired": "انتهت صلاحية الرمز",
+  "emptyEmail": "البريد الإلكتروني فارغ",
+  "invalidEmail": "بريد إلكتروني غير صالح",
+  "invalidPassword": "كلمة مرور غير صالحة",
+  "invalidUserName": "اسم مستخدم غير صالح",
+  "invalidPhoneNumber": "رقم هاتف غير صالح",
+  "invalidDateTime": "تاريخ/وقت غير صالح",
+  "passwordsAreNotMatch": "كلمات المرور غير متطابقة",
+  "ok": "موافق",
+  "cancel": "إلغاء",
+  "retry": "إعادة المحاولة",
+  "close": "إغلاق",
+  "search": "بحث",
+  "myPage": "صفحتي",
+  "home": "الصفحة الرئيسية",
+  "darkTheme": "الوضع الداكن",
+  "japanese": "اليابانية",
+  "newKey": "قيمة جديدة",
+  "actionCreate": "انشاء",
+  "actionFailure": "فشلت العملية",
+  "actionSuccess": "تمت العملية بنجاج",
+  "authLogout": "تسجيل خروج",
+  "authErrorCanceledOrInvalid": "تم الغاء او تعطيل تسجيل الدخول",
+  "appName": "أكاديمي",
+  "back": "رجوع",
+  "comingSoonDesc": "يعمل مطوّرونا بجد على وضع اللمسات الأخيرة على هذه الميزة السرية الرائعة. ثقو بنا، فسيكون الانتظار جديرًا بالجهد! ترقَّبوا التحديثات، وفي الوقت الحالي، استمتعوا بجميع الميزات الرائعة الأخرى التي يوفرها تطبيقنا.",
+  "comingSoon": "قريباً",
+  "confirmAnswer": "تأكيد الإجابة",
+  "continueWithEmail": "   واصل بإستخدام البريد الإلكتروني",
+  "homeTabPageLearn": "استكشاف",
+  "homeTabPageSprints": "سبرينتس",
+  "homeTabPageLibrary": "مكتبة",
+  "homeTabPageProfile": "أنا",
+  "dashCardPercentageCompleted": " %s عدد المهام المنتهية",
+  "dashLearningTrack": "مسارات التعلم",
+  "dashOverviewCompleted": "المنهية",
+  "dashOverviewTotalProjects": "كل المشاريع",
+  "dashOverviewTotalTask": "اجمالي المهام",
+  "dashScrDashboard": "لوحة التحكم",
+  "dashScrLibrary": "مكتبة التعلم",
+  "dashScrOverview": "ملخص",
+  "dashScrProductivity": "ملخص المهام",
+  "dashScrWelcome": "مرحبا \n %s",
+  "dashTopMentors": "القادة والمدربين",
+  "dashViewAll": "عرض الكل",
+  "dashboardAddSheetScrCreateEvent": "إنشاء موعد",
+  "dashboardAddSheetScrCreateProject": "إنشاء مشروع",
+  "dashboardAddSheetScrCreateTask": "إنشاء مهمة",
+  "dashboardAddSheetScrCreateTeam": "إنشاء فريق",
+  "debugAnimationsTitle": "الرسوم المتحركة",
+  "debugDatabase": "قاعدة البيانات",
+  "debugLicensesGoTo": "عرض الرخص",
+  "debugLicensesTitle": "الرخص",
+  "debugLocaleCurrentLanguage": "اللغة الحالية: %1$s",
+  "debugLocaleSelector": "حدد لغتك",
+  "debugLocaleTitle": "اللغة",
+  "debugNativeBridgeLog": "إرسال سجل الجسر الأصلي",
+  "debugNativeBridge": "الجسر الأصلي",
+  "debugPermissionResetAnalytics": "إعادة تعيين إذن التحليلات",
+  "debugPermissionsShowAnalyticsPermission": "إظهار شاشة إذن التحليلات",
+  "debugPermissionsTitle": "الأذونات",
+  "debugShowTranslations": "عرض الترجمات",
+  "debugSlowAnimations": "تباطؤ الرسوم المتحركة",
+  "debugTargetPlatformSubtitle": "المنصة الحالية: %1$s",
+  "debugTargetPlatformTitle": "المنصة المستهدفة",
+  "debugThemeModeSubtitle": "عرض التطبيق في الوضع الداكن أو الفاتح",
+  "debugThemeModeTitle": "الوضع",
+  "debugThemeTitle": "المظهر",
+  "debugTitle": "تصحيح",
+  "debugTranslationsTitle": "مفاتيح الترجمة",
+  "debugViewDatabase": "عرض قاعدة البيانات",
+  "dialogReportAnIssueDescription": "وصف المشكلة",
+  "dialogReportAnIssueType": "نوع المشكلة",
+  "dialogReportAnIssue": "ابلغ عن مشكلة",
+  "dialogReviewAddedSuccessfully": "تمت إضافة تقييمك بنجاح! شكراً على مشاركتك.",
+  "dialogReviewCountLabel": "التقييمات",
+  "dialogReviewDescription": "تقييمك",
+  "dialogReviewRatingLearningObject": "قيم هذا العنصر التعليمي",
+  "dialogReviewRatingLearningTrack": "قيم هذا المسار التعليمي",
+  "dialogReviewRating": "قيم هذا الدرس",
+  "dialogReviewSaveLoading": "جاري حفظ التقييم...",
+  "dialogReviewSend": "إرسال التقييم",
+  "dialogReviewTitle": "أضف تقييمك",
+  "done": "تم",
+  "dsahboardNavForYou": "مختارات لك",
+  "dueDate": "تاريخ الاستحقاق",
+  "email": "البريد الإلكتروني",
+  "errorBadRequest": "خطأ في الطلب",
+  "errorDuringDev": "لقد برمجت شيئًا خاطئًا",
+  "errorForbidden": "خطأ ممنوع",
+  "errorGeneralWithCode": "حدث خطأ ما (الرمز: %1$s)",
+  "errorGeneral": "حدث خطأ ما",
+  "errorInternalServer": "خطأ داخلي في الخادم",
+  "errorNoNetwork": "لا يوجد اتصال بالإنترنت",
+  "errorUnauthorized": "خطأ غير مصرح به",
+  "generalLabelAndroid": "أندرويد",
+  "generalLabelCancel": "إلغاء",
+  "generalLabelDelete": "تعطيل",
+  "generalLabelEdit": "تحرير",
+  "generalLabelFilter": "تصفية",
+  "generalLabelIos": "أي أو إس",
+  "generalLabelNo": "لا",
+  "generalLabelOk": "موافق",
+  "generalLabelProtip": "نصيحة مهنية",
+  "generalLabelSave": "حفظ",
+  "generalLabelSearch": "بحث",
+  "generalLabelSort": "ترتيب",
+  "generalLabelSystemDefault": "الافتراضي للنظام",
+  "generalLabelTryAgain": "حاول مرة اخرى",
+  "generalLabelUnderstand": "متفق",
+  "generalLabelYes": "نعم",
+  "getStarted": "إبدأ",
+  "itemSelected": "%s مختار",
+  "learingSubscribe": "تسجيل",
+  "learningDailyLessonsCompleted0": "تهانينا، لقد أنهيت هدفك اليومي",
+  "learningDailyLessonsCompleted1": "عمل جيد، إنك تسحق أهدافك اليومية مثل العنب في عصارة النبيذ!",
+  "learningDailyLessonsCompleted10": "طريقة رائعة للذهاب! لقد أخذت أهداف اليوم وسحقتها مثل مدحلة.",
+  "learningDailyLessonsCompleted2": "واوزا! أنت على رأس أهدافك، يجب أن يطلبوا منك التوقيع!",
+  "learningDailyLessonsCompleted3": "عمل رائع! أنت تجعل اليوم خادمًا لك بدلاً من العكس.",
+  "learningDailyLessonsCompleted4": "يبدو أنك تحقق نجاحًا كاملاً اليوم! استمر!",
+  "learningDailyLessonsCompleted5": "أنت تقوم بعمل رائع! ربما يجب أن تكون أنت من يضع الأهداف هنا.",
+  "learningDailyLessonsCompleted6": "رائع جداً! استمر في العمل الجيد وستكون قد احتلت العالم بحلول وقت الغداء.",
+  "learningDailyLessonsCompleted7": "برافو! لقد أثبتت مرة أخرى أنك آلة لتحقيق الأهداف!",
+  "learningDailyLessonsCompleted8": "انظر كيف تسير! بهذه السرعة، ستكون قادراً على التقاعد بحلول الظهر.",
+  "learningDailyLessonsCompleted9": "رائع! لقد حققت بالفعل المزيد مما يفعله معظم الناس خلال اليوم بأكمله!",
+  "learningDailyLessonsPendingHalf": "يا لها من فرحة! أنت في منتصف الطريق.",
+  "learningDailyLessonsPendingZero": "لا يوجد وقت متأخر لتعلم شيء جديد",
+  "learningDeepDive": "مصادر اضافية",
+  "learningInspiredBy": "من مقتبسات",
+  "learningLesssonAudioObjectGenerating": "جارٍ إنشاء درسك الصوتي ، يرجى الانتظار",
+  "learningMarkAsCompleted": "انهاء الدرس",
+  "learningNoLearningObjectForSelectedDay": "لا توجد مواضيع تعليمية للتاريخ المحدد 🙁",
+  "learningObjectAction": "إجراء",
+  "learningObjectActivity": "نشاط",
+  "learningObjectCaseStudy": "دراسة حالة",
+  "learningObjectExample": "مثال",
+  "learningObjectTutorial": "درس",
+  "learningObjectType": "نوع",
+  "learningOverview": "نظرة عامة",
+  "learningPathOverview": "ملخص المسار التعليمي",
+  "learningSimilarTracks": "مسارات تعلم مشابهة",
+  "learningStartReading": "لنقرأ",
+  "learningSummary": "الملخص",
+  "learningTldrachievement": "حققت:🙌",
+  "learningTldrlesson": "قرات عن:👉",
+  "learningTldrmedia": "شاهدت:🎥",
+  "learningTldrquestion": "اجبت عن السوال:❔",
+  "learningTldrtopTakaways": "اهم النقاط",
+  "learningTldrwhat": "تمكنك من ...",
+  "learningTldrwhen": "استخدمها عند",
+  "learningTopCategories": "تصنيفات التعلم",
+  "licenseAgreement": "بالمواصله فانت توافق علي سياسه الخصوصيه وشروط خدمه التطبيق",
+  "ogrScrInvitePeopleByEmail": "قم بدعوه صائدي مواهب الي فريق مؤسستك",
+  "ogrScrNewOrganization": "اضافة مؤسسة جديدة",
+  "ogrScrNumberOfPeopleInTeam": "كم عدد الموظفين الحاليين في المؤسسة",
+  "ogrScrTapLogoToUpload": "اضغط علي الصوره لاختيار شعار مؤسستك الخاص",
+  "ogrScrYourOrganization": "مؤسسة %s",
+  "onboardingCareerManagementSlogan": "لنصنع سويا\nمساحه\nلنجاحك المهني",
+  "onboardingCareerManagement": "سيطر على مسارك المهني",
+  "onboardingSelectYourCategory": "قم بتخصيص رحلتك الدراسية من خلال اختيار الفئات التي تثير اهتمامك.",
+  "orgScrChooseColorTheme": "اختر نمط الالوان المناسب لك",
+  "orgScrNext": "التالي",
+  "orgScrSkip": "تخطي",
+  "permissionAnalyticsDescription": "نود معرفة كيف تستخدم تطبيقنا. يساعدنا ذلك على تحسين تجربتك كمستخدم. لا يتم جمع أي بيانات شخصية.",
+  "permissionAnalyticsTitle": "ساعدنا في التحسين",
+  "permissionButtonAccept": "موافقة",
+  "permissionButtonDecline": "رفض",
+  "permissionButtonMoreInfo": "مزيد من المعلومات",
+  "profileLearningTrack": "مسارات التعلُّم",
+  "profileManage": "إدارة",
+  "profileMyInformation": "بياناتي",
+  "profileTeam": "الفِرَق",
+  "profile": "ملفي",
+  "projScrCategory": "اختر مجال المشروع",
+  "projScrChooseColor": "لون مناسب للمشروع",
+  "projScrFiles": "الملفات",
+  "projScrAdvanced": "متقدم",
+  "projScrListen": "استمع",
+  "projScrFirstProject": "انشاء اول مشروع",
+  "projScrIcon": "ايقونه",
+  "projScrCategorySlogan": "حدد مجالًا",
+  "projScrChooseColorSlogan": "لون لتلوين عالمي",
+  "projScrIconSlogan": "أيقونة النجاح",
+  "projScrIsPinned": "ثبت المشروع",
+  "projScrNewProject": "اضافة مشروع جديد",
+  "projScrTapToSelectFiles": "اضغط لاختيار ملفات",
+  "projScrNewTaskActionCompleted": "تهانينا، %s تم إنجازه",
+  "projScrNewTaskActionDeleteSuccess": "تم حذف المهمة %s من السبرينت %s",
+  "projScrNewTaskActionSuccess": "تمت إضافة مهمة جديدة إلى السبرينت %s",
+  "projScrNewTaskContent": "وصف للمطلوب",
+  "projScrNewTaskDueDate": "الزمن المطلوب",
+  "projScrNewTaskIsCompleted": "هل مكتمله",
+  "projScrNewTaskIsPinned": "ثبت المهمة",
+  "projScrNewTaskIsProject": "المشروع التابع",
+  "projScrNewTaskTitleReference": "مراجع (مواقع، كتب، الخ)",
+  "projScrNewTaskTitle": "عنوان المهمه",
+  "projScrNewTaskType": "نوع المهمة",
+  "projScrNewTask": "اضافة مهمة جديده",
+  "projScrNext": "التالي",
+  "projScrSkip": "تخطي",
+  "projScrTeam": "الفريق المسوول عن المشروع",
+  "projectDetailsScrAllTasks": "كل المهام",
+  "projectDetailsScrRecent": "معدله مؤخرا",
+  "projectDetailsScrStarred": "مهم",
+  "projectEmptyState": "ليس لديك اي مشاريع.. اضغط علي اضافة وخطط لمشروعك الاول",
+  "projectPrivacy": "مهامك وأعمالك مؤمنة ومتاحة لك فقط ، ولديك تحكم كامل في كيفية مشاركتها,ومع من يتم مشاركتها",
+  "projectProgressStateReportProblem": "اضغط للإبلاغ عن مشكلة",
+  "projectProgressState": "جارٍ إعداد المحتوى من قبل الذكاء الصناعي لدينا",
+  "projectScrAll": "الكل",
+  "projectScrFavorites": "المفضلة",
+  "projectScrProjects": "مشاريع",
+  "projectScrRecent": "معدله",
+  "communityCreate": "انشاء مجتمع",
+  "communityCreateName": "اسم المجتمع",
+  "communityCreateAbout": "نبذة عن المجتمع",
+  "communityCreateMembers": "اعضاء المجتمع",
+  "communityCreateColor": "لون المجتمع",
+  "communityCreateCategory": "فئة المجتمع",
+  "communityCreateJoiningOption": "خيار الانضمام للمجتمع",
+  "reviewDialogTitle": "اضافة تقييم",
+  "savedLearningObjects": "الموارد التعليمية المحفوظة",
+  "settingsAccount": "الحساب",
+  "settingsAllowApplicationToAccessStoredFingerprintIds": "السماح للتطبيق بالوصول إلى معرّفات بصمة الأصبع المخزّنة",
+  "settingsChangePassword": "تغيير كلمة المرور",
+  "settingsCommon": "إعدادات عامة",
+  "settingsConfirmAccountDeletionDescription": "هل أنت متأكد من أنك تريد حذف حسابك؟ لن تتمكن من استعادة البيانات المحذوفة.",
+  "settingsConfirmLogoutDescription": "تأكيد الخروج؟ ستحتاج إلى تسجيل الدخول مرة أخرى للوصول إلى حسابك.",
+  "settingsConfirmAccountDeletion": "تأكيد حذف الحساب",
+  "settingsDeleteAccount": "حذف الحساب",
+  "settingsEmptyCache": "تفريغ ذاكرة التخزين المؤقت للتطبيق",
+  "settingsEnableDarkTheme": "تمكين الوضع الليلي",
+  "settingsEnableNotifications": "تمكين الإشعارات",
+  "settingsEnvironment": "البيئة",
+  "settingsLockAppInBackground": "قفل التطبيق في الخلفية",
+  "settingsMisc": "متنوعات",
+  "settingsOpenSourceLicense": "ترخيص المصدر المفتوح",
+  "settingsPhoneNumber": "رقم الهاتف",
+  "settingsPlatform": "المنصة",
+  "settingsPrivacyPolicy": "سياسة الخصوصية",
+  "settingsProduction": "الإنتاج",
+  "settingsRecieveEmailNotifications": "تلقي إشعارات البريد الإلكتروني",
+  "settingsSecurity": "الأمان",
+  "settingsSettings": "الإعدادات",
+  "settingsSignOut": "تسجيل الخروج",
+  "settingsTermsOfService": "شروط الخدمة",
+  "settingsTitle": "الإعدادات",
+  "settingsUseFingerprint": "استخدام بصمة الأصبع",
+  "settingsVersion": "الإصدار",
+  "slider1": "وظائف,\nشبكه محترفين,\nتواصل بزنس",
+  "slider2": "مهاراتك\nالوظيفية\nللعالم",
+  "slider3": "قم بإدارة\nمسارك المهني\nمن جيبك",
+  "subscriptionChoosePlan": "اختر اشتراكك",
+  "subscriptionCurrentPlan": "الاشتراك الحالي",
+  "subscriptionFeatureAi": "وكيل توظيف ذكي",
+  "subscriptionFeatureAiclickForDetailsInfo": "انظر كيف يمكن لوكيلنا الممكّن بالذكاء الاصطناعي مساعدتك في الحصول على فريق أحلامك، مصمّم خصيصًا للشركات الناشئة والمؤسسات ومخصّص بناءً على احتياجاتك. يمكنك تجربته مجانًا والدفع فقط عندما توظف شخصًا",
+  "subscriptionFeatureAiclickForDetails": "اضغط للتعرف علي كيفيه عمله",
+  "subscriptionFeatureCustomPages": "تخصيص تجربه التوظيف",
+  "subscriptionFeatureMenu": "قائمة - ادارة المؤسسة",
+  "subscriptionFeatureMultipleRecruiters": "صائدي مواهب متعددين",
+  "subscriptionFeaturesEnabledDesc": "The list of features enabled for your account, you can upgrade to unlock more features",
+  "subscriptionFeatures": "فعل هذه المزايا",
+  "subscriptionSelectTeamPlan": "هل تحتاج خطط أخرى مثل خطط الفرق والمؤسسات؟ انقر هنا",
+  "subscriptionUnlockAllFeatures": "احصل علي كل الخصائص والمزايا عند الاشتراك",
+  "subscriptionUnlockFreeForSmallTeam": "للشركات الصغيره (1-10)",
+  "subscriptionUnlockFree": "مجاني بلا شروط",
+  "subscriptionUnlockPremiumPrice": "$19/بالشهر",
+  "subscriptionUnlockPremium": "اشتراك شهري",
+  "subscriptionRestorePurchase": "استعادة الشراء",
+  "subscriptionRestorePurchaseLoading": " يتم استعادة الشراء الخاص بك.   ",
+  "subscriptionPaymentCanceled": "تم إلغاء دفع الاشتراك. يرجى المحاولة مرة أخرى.",
+  "subscriptionPaymentError": "نأسف، لم يتمكن النظام من معالجة دفع الاشتراك الخاص بك في الوقت الحالي. يرجى المحاولة مرة أخرى في وقت لاحق.",
+  "subscriptionPaymentPending": "دفع الاشتراك الخاص بك قيد الانتظار. سنقوم بإعلامك عندما يتم الانتهاء منه.",
+  "subscriptionPreviousOrders": "الطلبات السابقة",
+  "themeModeLabelDark": "داكن",
+  "themeModeLabelLight": "فاتح",
+  "themeModeLabelSystem": "الافتراضي للنظام",
+  "toLogin": "لتسجيل دخولك.   ",
+  "todoAddInputHint": "أدخل مهمتك",
+  "todoAddTitle": "إضافة مهمة",
+  "todoAllTasks": "جميع المهام",
+  "todoDailyTasks": "الأهداف اليومية",
+  "todoEmptyState": "لم يتم إضافة بيانات إلى قاعدة البيانات الخاصة بك. قم بجلب بعض المهام باستخدام استدعاء واجهة برمجة التطبيقات (رمز التنزيل) أو قم بإضافة واحدة بنفسك عن طريق النقر على أيقونة الإضافة.",
+  "todoTasks": "المهام",
+  "todoTitle": "المهام اليومية",
+  "topComments": "آهم التعليقات",
+  "userProfileAboutMeShort": "نبذة عني",
+  "userProfileAboutMe": "نبذة عني",
+  "userProfileEmailShort": "البريد الإلكتروني",
+  "userProfileEmail": "لنبقى على اتصال، رجاءً أرسل البريد الإلكتروني!",
+  "userProfileFirstName": "الاسم الأول",
+  "userProfileLastName": "اسم العائلة",
+  "userProfileNameShort": "الاسم",
+  "userProfileName": "اسمي هو",
+  "userProfilePasswordShort": "كلمة المرور",
+  "userProfilePassword": "كلمة المرور",
+  "userProfileRecieveNotificationShort": "تلقي الإشعارات",
+  "userProfileRecieveNotification": "يمكننا إرسال تحديثات لك من وقت لآخر",
+  "userProfileSubscriptionEnd": "انتهاء الاشتراك",
+  "userProfileSubscriptionStart": "بداية الاشتراك",
+  "userSubscriptionPlan": "نظام الاشتراك",
+  "using": "انت تستخدم",
+  "whatsYourEmail": "بريدك الإلكتروني \n لنبق على تواصل ",
+  "yourEmail": "بريدك الإلكتروني",
+  "yourPassword": "كلمة المرور الخاصه بك",
+  "onboardingCategoryListTitle": "الفئات",
+  "onboardingConfirmSelectionButton": "تأكيد الاختيارات",
+  "onboardingDoneButton": "تم",
+  "onboardingLearningTracksTitle": "المسارات التعليمية داخل كل فئة",
+  "onboardingNextButton": "التالي",
+  "onboardingSelectCategoryInstruction": "اختر من بين مجموعة واسعة من الفئات لتبدأ.",
+  "onboardingSkipStepButton": "تخطي للآن",
+  "onboardingSubtitle": "قم بتخصيص رحلتك من خلال اختيار الفئات التي تثير اهتمامك",
+  "onboardingTitle": "مرحبًا بك في مغامرتك التعليمية!",
+  "onboardingSubscribtionTutorial": "اختر مسار التعلم الخاص بك، وابدأ رحلتك\nمع أكاديمي AI",
+  "timeMinute": "دقيقة"
+}

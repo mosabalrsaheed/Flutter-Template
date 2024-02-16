@@ -26,7 +26,7 @@ class _LoginPageState extends BasePageState<LoginPage, LoginBloc> {
         leadingIconColor: AppColors.current.secondaryColor,
         titleType: AppBarTitle.text,
         centerTitle: true,
-        text: S.current.login,
+        text: localisation.login,
         backgroundColor: AppColors.current.primaryColor,
         titleTextStyle: AppTextStyles.s14w400Primary(),
       ),
@@ -36,15 +36,15 @@ class _LoginPageState extends BasePageState<LoginPage, LoginBloc> {
           child: Column(
             children: [
               AppTextField(
-                title: S.current.email,
-                hintText: S.current.email,
+                title: localisation.email,
+                hintText: localisation.email,
                 onChanged: (email) => bloc.add(EmailTextFieldChanged(email: email)),
                 keyboardType: TextInputType.emailAddress,
               ),
               SizedBox(height: Dimens.d24.responsive()),
               AppTextField(
-                title: S.current.password,
-                hintText: S.current.password,
+                title: localisation.password,
+                hintText: localisation.password,
                 onChanged: (pass) => bloc.add(PasswordTextFieldChanged(password: pass)),
                 keyboardType: TextInputType.visiblePassword,
               ),
@@ -69,7 +69,7 @@ class _LoginPageState extends BasePageState<LoginPage, LoginBloc> {
                           .withOpacity(state.isLoginButtonEnabled ? 1 : 0.5)),
                     ),
                     child: Text(
-                      S.current.login,
+                      localisation.login,
                       style: AppTextStyles.s14w400Primary(),
                     ),
                   );
@@ -82,7 +82,7 @@ class _LoginPageState extends BasePageState<LoginPage, LoginBloc> {
                   backgroundColor: MaterialStateProperty.all(AppColors.current.primaryColor),
                 ),
                 child: Text(
-                  S.current.fakeLogin,
+                  localisation.fakeLogin,
                   style: AppTextStyles.s14w400Primary(),
                 ),
               ),

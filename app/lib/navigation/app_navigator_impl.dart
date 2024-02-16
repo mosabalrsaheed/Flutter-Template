@@ -224,12 +224,12 @@ class AppNavigatorImpl extends AppNavigator with LogMixin {
 
     return m.showDialog<T>(
       context: useRootNavigator ? _rootRouterContext : _currentTabContextOrRootContext,
-      builder: (_) => m.WillPopScope(
-        onWillPop: () async {
+      builder: (_) => m.PopScope(
+        onPopInvoked: (bool canPop) async {
           logD('Dialog $appPopupInfo dismissed');
           _shownPopups.remove(appPopupInfo);
 
-          return Future.value(true);
+          
         },
         child: _appPopupInfoMapper.map(appPopupInfo, this),
       ),
@@ -266,12 +266,12 @@ class AppNavigatorImpl extends AppNavigator with LogMixin {
         m.Animation<double> animation1,
         m.Animation<double> animation2,
       ) =>
-          m.WillPopScope(
-        onWillPop: () async {
+          m.PopScope(
+        onPopInvoked: (bool pop) async {
           logD('Dialog $appPopupInfo dismissed');
           _shownPopups.remove(appPopupInfo);
 
-          return Future.value(true);
+          
         },
         child: _appPopupInfoMapper.map(appPopupInfo, this),
       ),
@@ -312,7 +312,7 @@ class AppNavigatorImpl extends AppNavigator with LogMixin {
       _rootRouterContext,
       message,
       duration: duration,
-      // backgroundColor: AppColors.current.primaryColor,
+      // backgroundColor: AppColorlocalisation.primaryColor,
     );
   }
 
@@ -322,7 +322,7 @@ class AppNavigatorImpl extends AppNavigator with LogMixin {
       _rootRouterContext,
       message,
       duration: duration,
-      // backgroundColor: AppColors.current.primaryColor,
+      // backgroundColor: AppColorlocalisation.primaryColor,
     );
   }
 }

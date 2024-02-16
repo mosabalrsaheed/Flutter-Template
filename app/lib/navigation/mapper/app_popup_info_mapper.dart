@@ -15,7 +15,7 @@ class AppPopupInfoMapper extends BasePopupInfoMapper {
         return CommonDialog(
           actions: [
             PopupButton(
-              text: S.current.ok,
+              text: localisation.ok,
               onPressed: onPressed ?? Func0(() => navigator.pop()),
             ),
           ],
@@ -26,11 +26,11 @@ class AppPopupInfoMapper extends BasePopupInfoMapper {
         return CommonDialog(
           actions: [
             PopupButton(
-              text: S.current.cancel,
+              text: localisation.cancel,
               onPressed: Func0(() => navigator.pop()),
             ),
             PopupButton(
-              text: S.current.retry,
+              text: localisation.retry,
               onPressed: onRetryPressed ?? Func0(() => navigator.pop()),
               isDefault: true,
             ),
@@ -39,15 +39,15 @@ class AppPopupInfoMapper extends BasePopupInfoMapper {
         );
       },
       requiredLoginDialog: () => CommonDialog.adaptive(
-        title: S.current.login,
-        message: S.current.login,
+        title: localisation.login,
+        message: localisation.login,
         actions: [
           PopupButton(
-            text: S.current.cancel,
+            text: localisation.cancel,
             onPressed: Func0(() => navigator.pop()),
           ),
           PopupButton(
-            text: S.current.login,
+            text: localisation.login,
             onPressed: Func0(() async {
               await navigator.pop();
               await navigator.push(const AppRouteInfo.login());

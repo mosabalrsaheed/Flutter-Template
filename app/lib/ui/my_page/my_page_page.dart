@@ -18,6 +18,9 @@ class MyPagePage extends StatefulWidget {
 }
 
 class _MyPagePageState extends BasePageState<MyPagePage, MyPageBloc> {
+  LanguageCode languageCode = LanguageCode.defaultValue;
+
+
   @override
   Widget buildPage(BuildContext context) {
     return CommonScaffold(
@@ -30,7 +33,7 @@ class _MyPagePageState extends BasePageState<MyPagePage, MyPageBloc> {
                 builder: (context, state) {
                   return SwitchListTile.adaptive(
                     title: Text(
-                      S.current.darkTheme,
+                      localisation.darkTheme,
                       style: AppTextStyles.s14w400Primary(),
                     ),
                     tileColor: AppColors.current.primaryColor,
@@ -44,15 +47,20 @@ class _MyPagePageState extends BasePageState<MyPagePage, MyPageBloc> {
               BlocBuilder<AppBloc, AppState>(
                 buildWhen: (previous, current) => previous.languageCode != current.languageCode,
                 builder: (context, state) {
-                  return SwitchListTile.adaptive(
-                    title: Text(
-                      S.current.japanese,
-                      style: AppTextStyles.s14w400Primary(),
-                    ),
-                    tileColor: AppColors.current.primaryColor,
-                    value: state.languageCode == LanguageCode.ja,
-                    onChanged: (isJa) => appBloc.add(
-                      AppLanguageChanged(languageCode: isJa ? LanguageCode.ja : LanguageCode.en),
+                  return SizedBox(
+                    height: 400,
+                    child: ListView(
+                      children: LanguageCode.values
+                          .map((value) => RadioListTile.adaptive(
+                              value: value,
+                              groupValue: languageCode,
+                              title: Text(value.serverValue),
+                              onChanged: (currentLanguageCode) {
+                                languageCode = currentLanguageCode!;
+                                appBloc.add(AppLanguageChanged(
+                                    languageCode: currentLanguageCode));
+                              }))
+                          .toList(),
                     ),
                   );
                 },
@@ -64,7 +72,7 @@ class _MyPagePageState extends BasePageState<MyPagePage, MyPageBloc> {
                   backgroundColor: MaterialStateProperty.all(AppColors.current.primaryColor),
                 ),
                 child: Text(
-                  S.current.logout,
+                  localisation.logout,
                   style: AppTextStyles.s14w400Primary(),
                 ),
               ),

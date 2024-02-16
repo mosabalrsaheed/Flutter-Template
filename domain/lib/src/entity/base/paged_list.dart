@@ -16,7 +16,7 @@ class PagedList<T> with _$PagedList<T> {
     @Default(-99) int? total,
   }) = _PagedList;
 
-  // TODO(minh): fix depend on project
+  // TODO(Zer0): fix depend on project
   bool get isLastPage => data.isEmpty || next == null;
 
   LoadMoreOutput<T> toLoadMoreOutput() {

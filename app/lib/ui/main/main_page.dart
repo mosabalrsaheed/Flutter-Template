@@ -36,10 +36,10 @@ class _MainPageState extends BasePageState<MainPage, MainBloc> {
           },
           showSelectedLabels: true,
           showUnselectedLabels: true,
-          // unselectedItemColor: AppColors.current.primaryColor,
-          // selectedItemColor: AppColors.current.primaryColor,
+          // unselectedItemColor: AppColorlocalisation.primaryColor,
+          // selectedItemColor: AppColorlocalisation.primaryColor,
           type: BottomNavigationBarType.fixed,
-          // backgroundColor: AppColors.current.primaryColor,
+          // backgroundColor: AppColorlocalisation.primaryColor,
           items: BottomTab.values
               .map(
                 (tab) => BottomNavigationBarItem(

@@ -56,6 +56,7 @@ class AppBloc extends BaseBloc<AppEvent, AppState> {
         await _saveLanguageCodeUseCase
             .execute(SaveLanguageCodeInput(languageCode: event.languageCode));
         emit(state.copyWith(languageCode: event.languageCode));
+ 
       },
     );
   }

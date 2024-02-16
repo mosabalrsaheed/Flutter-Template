@@ -19,7 +19,7 @@ class FakeLoginUseCase extends BaseFutureUseCase<FakeLoginInput, FakeLoginOutput
   Future<FakeLoginOutput> buildUseCase(FakeLoginInput input) async {
     await _navigator.showDialog(
       AppPopupInfo.confirmDialog(
-          message: S.current.login,
+          message: localisation.login,
           onPressed: Func0(() async {
             await _repository.saveAccessToken('fakeToken');
             await _navigator.replace(const AppRouteInfo.main());

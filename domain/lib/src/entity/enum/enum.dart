@@ -24,6 +24,10 @@ enum LanguageCode {
     localeCode: LocaleConstants.en,
     serverValue: ServerRequestResponseConstants.en,
   ),
+  ar(
+    localeCode: LocaleConstants.ar,
+    serverValue: ServerRequestResponseConstants.ar,
+  ),
   ja(
     localeCode: LocaleConstants.ja,
     serverValue: ServerRequestResponseConstants.ja,
@@ -62,11 +66,11 @@ enum BottomTab {
   String get title {
     switch (this) {
       case BottomTab.home:
-        return S.current.home;
+        return localisation.home;
       case BottomTab.search:
-        return S.current.search;
+        return localisation.search;
       case BottomTab.myPage:
-        return S.current.myPage;
+        return localisation.myPage;
     }
   }
 }
